@@ -10,7 +10,7 @@ The main page to run is index.html
 
 ### Notes:
  • The page is static because no Java Script code is used only styling is used for only practice.
- • But I added a small transition animation on loading the page.(New feature wasn't in my last project <a href="https://github.com/BasmaElhoseny01/Jumpin-Beans-Cafe-Website">Jumpin Beans Cafe Website</a>. )Later I will update it with more actions :) <br>
+ • But I added a small transition animation on loading the page.(New feature wasn't in my last project <a href="https://github.com/BasmaElhoseny01/Jumpin-Beans-Cafe-Website">Jumpin Beans Cafe Website</a>). Later I will update it with more actions :) <br>
  • The buttons in the header are links but are directed to nothing. Only the links in the footer are directed to my social media accounts.
  
  
