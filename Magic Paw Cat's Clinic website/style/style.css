@@ -1,0 +1,278 @@
+/*Header*/
+.header {
+    width: 100vw;
+    height: 10vh;
+
+    margin: auto;
+    padding-top: 0;
+
+    background-color: #9FEDD7;
+
+    /*Flex Box*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    /*Fixed*/
+    position: fixed;
+    top: 0;
+    /*Position the navbar at the top of the page*/
+    /* Note that the fixed menu will overlay your other content. To fix this,
+     add a margin-top (to the content) that is equal or larger than the height of your menu. */
+    /*****Note******/
+    /*Here i removed the margin-top from the navigation bar bec it is also fixed*/
+
+    
+
+}
+
+.header img {
+    width: 80px;
+    margin-top: 0px;
+    margin-left: 15px;
+
+    /* border: solid gray 2px; */
+}
+
+.header button {
+    width: 15%;
+    height: 85%;
+
+    background-color:  #F0EBF4;
+    border: none;
+}
+
+.preview {
+    width: 20%;
+    height: 100%;
+
+    /*Flex Box*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /* border: black solid 3px; */
+}
+
+.preview img {
+    width: 35px;
+    height: 35px;
+
+    margin: 3px;
+}
+
+/*Navigation Bar*/
+.navigationBar {
+
+    width: 100vw;
+    height: 5vh;
+
+    /* background-color: #EDEAE5; */
+    background-color:rgb(255, 174, 66,0.6)	;
+    /* box-shadow: black; */
+
+    /*Flex Box*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /*Fixed*/
+    position: fixed;
+    top: 10vh;
+    /* Note that the fixed menu will overlay your other content. 
+    To fix this, add a margin-top (to the content) that is equal or larger than the height of your menu. */
+}
+
+.navigationBar h3 {
+    margin: 8px;
+}
+
+.navigationBar a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Body*/
+body {
+
+    /*Due to header + navigation bar being fixed   12+9 vh = height of header+navigation bar*/
+    margin-top: 19vh;
+}
+
+/*Mission*/
+.Mission {
+    /* height: 400px; */
+
+    /*Flex Box*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    animation: transition 3s;
+}
+
+.Mission image {
+    height: 400px
+}
+
+/*Welcome*/
+.welcome {
+    margin: 2px;
+    padding: 10px;
+
+    line-height: 32px;
+
+    /*Flex Box*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #DFDCE3;
+
+}
+
+/*Values*/
+.values {
+    height: 400px;
+    width: 90%;
+
+    margin: 20px auto 10px auto;
+
+    /* background-color: yellowgreen; */
+
+    /*Flex Box*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.words {
+
+    width: 40%;
+
+    margin: auto;
+    padding: 5px;
+
+    background-color: rgb(236, 236, 236,0.5);
+
+    /*Flex Box*/
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.words button{
+
+    margin-left:40% ;
+    padding: 10px ;
+
+    border-radius: 15px;
+    border: solid 2px #97AABD;
+
+    background-color: #97AABD;
+    color: white;
+}
+
+.values img {
+    margin: 20px;
+    height: 70%;
+}
+
+/*About Us*/
+.aboutus {
+    margin: 30px;
+    padding: 20px;
+
+    background-color: #F7F7F7;
+    /* background-color: rgb(255, 174, 66,0.6)	;; */
+
+    border: solid rgb(255, 174, 66,0.6) 2px;
+    border-radius: 10px;
+
+    /*Flex Box*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutwords {
+    width: 40%;
+
+    margin: 10px;
+    padding: 10px;
+
+    /* background-color: snow; */
+
+    /*Flex Box*/
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    margin-top: 30px;
+
+    list-style: none;
+
+    line-height: 32px;
+}
+
+video {
+    width: 400px;
+}
+
+
+/*Footer*/
+.footer {
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: center;
+
+    /* background-color: seashell; */
+    /* background-color:rgb(255, 174, 66,0.6)	; */
+}
+
+.social {
+
+    /*FlexBox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: #DFDCE3;
+}
+
+.social img {
+    width: 25px;
+    height: auto;
+
+    margin: 5px;
+
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Animated*/
+@keyframes transition{
+    from{
+
+        opacity: 0;
+        transform: rotateX(-10deg);
+
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0deg);
+        
+    }
+}
