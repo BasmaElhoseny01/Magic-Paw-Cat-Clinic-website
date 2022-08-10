@@ -15,4 +15,4 @@ The main page to run is index.html
  
  
  
-<img src="https://raw.githubusercontent.com/BasmaElhoseny01/Jumpin-Beans-Cafe-Website/main/Screenshot.png" alt="Website Screenshot" />
+<img src="https://github.com/BasmaElhoseny01/Magic-Paw-Cat-Clinic-website/blob/main/Screen%20Shot.png" alt="Website Screenshot" />
