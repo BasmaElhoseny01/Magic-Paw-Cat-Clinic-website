@@ -4,7 +4,7 @@ It is a static page for a cats' clinic with a small transition when loading the 
 
 ## This will be my last static page because I am now on my first step in building my webpage using JavaScript in addition to HTML and CSS 😉
 
-This web page is my second task in web devlopment Course offered by <a href="https://www.facebook.com/BetaAcademy.B">Beta Academy</a>.
+This web page is my second task in web development Course offered by <a href="https://www.facebook.com/BetaAcademy.B">Beta Academy</a>.
 
 The main page to run is index.html
 
